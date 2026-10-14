@@ -171,3 +171,7 @@ The public manuscript is maintained in `ms/paper.Rmd`; its tables and inline est
 come from the CSV outputs. Markdown table copies are not generated.
 The bootstrap draw files are generated locally by `make run`; their summary estimates
 and intervals are versioned, while the draw files are ignored.
+
+<!-- adjacent:start -->
+
+<!-- adjacent:end -->
