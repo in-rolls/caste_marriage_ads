@@ -174,4 +174,14 @@ and intervals are versioned, while the draw files are ignored.
 
 <!-- adjacent:start -->
 
+## 🔗 Adjacent Repositories
+
+- [in-rolls/caste_marriage_matching](https://github.com/in-rolls/caste_marriage_matching) — Replication and analysis of caste preferences, shortlisting and marriage matching in India
+- [in-rolls/caste_water_markets](https://github.com/in-rolls/caste_water_markets) — Replication and analysis of caste, groundwater trade and crop sales in rural India
+- [in-rolls/caste_economic_overlap](https://github.com/in-rolls/caste_economic_overlap) — Economic distribution overlap and predictive information across caste groups
+- [in-rolls/quota_sanitation](https://github.com/in-rolls/quota_sanitation) — Replication and analysis of gender quotas, sanitation preferences and toilet provision in India
+- [in-rolls/land](https://github.com/in-rolls/land) — Distribution of Land in Bihar
+
+_Powered by [Adjacent](https://github.com/gojiplus/adjacent)_
+
 <!-- adjacent:end -->
