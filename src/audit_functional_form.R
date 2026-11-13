@@ -57,14 +57,14 @@ write_table(alt_forms, "audit_table6_alternative_forms")
 
 # Multinomial logit at the letter level: choice among nine ads with caste dummies,
 # income (thousand rupees) interacted with caste. The compensation is the income
-# change that equalises the two alternatives' utilities, which in a logit is the
+# change that equalizes the two alternatives' utilities, which in a logit is the
 # caste gap divided by the income coefficient; no extrapolation to the reference share.
 mlogit_fit <- function(rc) {
   data <- filter(sample, responder_caste == rc) |>
     mutate(groom = factor(groom, levels = groom_levels))
   # nnet::multinom fits alternative-specific intercepts; with nine unordered
   # alternatives and no letter-level covariates it is the saturated share model.
-  # A conditional-logit parameterisation with caste dummies and income slopes is
+  # A conditional-logit parameterization with caste dummies and income slopes is
   # fitted directly by maximum likelihood.
   counts <- table(data$groom)
   y <- as.numeric(counts[groom_levels])
